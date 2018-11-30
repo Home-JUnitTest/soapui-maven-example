@@ -14,7 +14,7 @@ Run with:
    mvn clean install
 ```
 
-SoapUI-проект [soapui-maven-example.xml](soapui-maven-example.xml) содержит один `testSuite` и `restMockService` который подымается на порту `8080` и с единственным ресурсом [/hello](http://localhost:8080/hello)
+SoapUI-проект [soapui-maven-example.xml](example-hello/soapui-maven-example.xml) содержит один `testSuite` и `restMockService` который подымается на порту `8080` и с единственным ресурсом [/hello](http://localhost:8080/hello)
 
 Единственный тестовый пример состоит из трех этапов.
 ### 1. Start the mockservice
@@ -39,7 +39,7 @@ Assert that payload contains "world"
 
 ---
 
-Пример реального SoapUI-проекта [MDES-soapui-project.xml](MDES-soapui-project.xml) сгенерированного с помощью инструмента [SoapUI](https://www.soapui.org)  
+Пример реального SoapUI-проекта [MDES-soapui-project.xml](MDES/MDES-soapui-project.xml) сгенерированного с помощью инструмента [SoapUI](https://www.soapui.org)  
 
 ---
 
