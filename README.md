@@ -49,3 +49,8 @@ Assert that payload contains "world"
 * http://qaru.site/questions/148010/whats-the-location-of-the-javafx-runtime-jar-file-jfxrtjar-on-linux
 * https://www.oracle.com/webfolder/technetwork/tutorials/OracleCode/Windows-HOL-setup.pdf
 
+
+# [Регрессионное тестирование](https://ru.wikipedia.org/wiki/Регрессионное_тестирование)
+
+Такие ошибки — когда после внесения изменений в программу перестаёт работать то, что должно было продолжать работать — называют регрессионными ошибками.
+Регрессионное тестирование может быть выполнено и вручную, но чаще всего это делается с помощью специализированных программ, позволяющих выполнять все регрессионные тесты автоматически.
