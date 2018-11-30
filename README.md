@@ -14,7 +14,7 @@ Run with:
    mvn clean install
 ```
 
-Проект SoapUI содержит один testsuite и mockService на 8080 с единственным ресурсом /hello
+SoapUI-проект [soapui-maven-example.xml](soapui-maven-example.xml) содержит один `testSuite` и `restMockService` который подымается на порту `8080` и с единственным ресурсом [/hello](http://localhost:8080/hello)
 
 Единственный тестовый пример состоит из трех этапов.
 ### 1. Start the mockservice
