@@ -2,7 +2,8 @@
 
 * [soapui-maven-example](https://github.com/O5ten/soapui-maven-example)
 * [JDK 8u191](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
+* [XML Formatter](https://www.freeformatter.com/xml-formatter.html)
+* [Online JSON Viewer](http://jsonviewer.stack.hu)
 
 
 Это пример настройки для SoapUI-maven интеграции, используя простой очень простой pom, чтобы включить плагин soapui maven.
@@ -34,6 +35,13 @@ Assert that payload contains "world"
 ```
 
 ### 3. Stop the mockservice
+
+
+---
+
+Пример реального SoapUI-проекта [MDES-soapui-project.xml](MDES-soapui-project.xml) сгенерированного с помощью инструмента [SoapUI](https://www.soapui.org)  
+
+---
 
 
 * https://coderanch.com/t/669860/java/javafx-packages-java-Fedora-Gnu

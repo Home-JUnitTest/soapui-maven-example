@@ -66,8 +66,8 @@
                 log.info "Path: "+ requestPath
 
                 if( requestPath.contains("json") ) {
-                // return the name of the response you want to dispatch
-                return "JSON Response"
+                    // return the name of the response you want to dispatch
+                    return "JSON Response"
                 }
 
 
@@ -76,11 +76,11 @@
                 log.info "QueryString: " + queryString
 
                 if( queryString.contains("stockholm") ) {
-                // возвращаем имя ответа, который вы хотите отправить
-                return "Response Stockholm"
+                    // возвращаем имя ответа, который вы хотите отправить
+                    return "Response Stockholm"
                 } else if( queryString.contains("london") ) {
-                // возвращаем имя ответа, который вы хотите отправить
-                return "Response London"
+                    // возвращаем имя ответа, который вы хотите отправить
+                    return "Response London"
                 }
 
 
@@ -89,8 +89,8 @@
                 log.info "AcceptEncoding Header List: " + acceptEncodingHeaderList
 
                 if( acceptEncodingHeaderList.contains("gzip,deflate") ) {
-                // возвращаем имя ответа, который вы хотите отправить
-                return "GZiped Response"
+                    // возвращаем имя ответа, который вы хотите отправить
+                    return "GZiped Response"
                 }
 
 
@@ -99,8 +99,8 @@
                 log.info "Request body: " + requestBody
 
                 if( requestBody.contains("some data") ) {
-                // возвращаем имя ответа, который вы хотите отправить
-                return "Response N"
+                    // возвращаем имя ответа, который вы хотите отправить
+                    return "Response N"
                 }
                 */
             </con:dispatchPath>
@@ -108,7 +108,7 @@
                 <con:settings />
                 <con:responseContent>
                     {
-                    "hello": "world"
+                      "hello": "world"
                     }
                 </con:responseContent>
             </con:response>
