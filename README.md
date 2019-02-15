@@ -54,3 +54,7 @@ Assert that payload contains "world"
 
 Такие ошибки — когда после внесения изменений в программу перестаёт работать то, что должно было продолжать работать — называют регрессионными ошибками.
 Регрессионное тестирование может быть выполнено и вручную, но чаще всего это делается с помощью специализированных программ, позволяющих выполнять все регрессионные тесты автоматически.
+
+
+* https://community.smartbear.com/t5/SoapUI-Open-Source/Eclipse-Maven-integration-of-Soapui-free-edition/td-p/123128
+* https://community.smartbear.com/t5/SoapUI-Open-Source/Eclipse-Maven-integration-of-Soapui-free-edition/td-p/123128/page/2
